@@ -1,7 +1,28 @@
 aid: sinotau
-name: sinotau
-description: sinotau is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinotau.png
+name: Sinotau
+description: >-
+  Sinotau (先通医药) is a Chinese pharmaceutical innovator specializing in the research,
+  development, production, clinical application, and academic promotion of radiopharmaceuticals
+  (nuclear medicine). Formally established in 2014, the company focuses on three therapeutic
+  areas — oncology, neurology, and cardiology — and has brought its first innovative product,
+  欧韦宁 (Florbetaben Fluorine-18 injection for PET brain imaging), to market alongside a
+  pipeline of 10+ products in development. Sinotau operates multiple R&D and production
+  facilities, employs 400+ staff, and holds 80+ authorized patents. It was surfaced as a
+  portfolio company of Qiming Venture Partners. As a corporate radiopharmaceutical
+  manufacturer, Sinotau publishes a corporate marketing website but no public developer
+  platform, API, or technical documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/sinotau/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Pharmaceuticals
+- Radiopharmaceuticals
+- Nuclear Medicine
+- Healthcare
+- Biotech
+- Oncology
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sinotau-domain-security.yml
 - type: Website
   url: https://sinotau.com
+- type: Website
+  name: English site
+  url: https://www.sinotau.com/en/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
